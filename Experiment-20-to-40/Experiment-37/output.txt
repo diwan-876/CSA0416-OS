@@ -1,0 +1,7 @@
+$ ./fcfs
+Enter number of disk requests: 8
+Enter request queue: 98 183 37 122 14 124 65 67
+Enter initial head position: 53
+
+FCFS sequence: 53 -> 98 -> 183 -> 37 -> 122 -> 14 -> 124 -> 65 -> 67
+Total head movement = 640 cylinders
