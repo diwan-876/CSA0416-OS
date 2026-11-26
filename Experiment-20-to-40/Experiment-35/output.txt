@@ -1,0 +1,13 @@
+$ ./indexed_allocation
+Enter index block number: 10
+Enter number of data blocks: 4
+Enter data block numbers: 7 12 19 25
+
+Indexed File Allocation
+Index Block: 10
+Index entry    Data block
+0              7
+1              12
+2              19
+3              25
+File blocks are accessed through the index block.
