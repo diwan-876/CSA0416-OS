@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440">
+<rect width="1100" height="440" rx="18" fill="#101820"/>
+<rect x="0" y="0" width="1100" height="54" rx="18" fill="#263746"/>
+<circle cx="28" cy="27" r="7" fill="#ff6b6b"/><circle cx="52" cy="27" r="7" fill="#ffd166"/><circle cx="76" cy="27" r="7" fill="#06d6a0"/>
+<text x="105" y="34" fill="#ffffff" font-family="Arial,sans-serif" font-size="20" font-weight="bold">Experiment 33 — Optimal Page Replacement</text>
+<text x="30" y="80" fill="#7ee787" font-family="monospace" font-size="15">Sample program output (illustrative run)</text>
+<text x="32" y="112" fill="#e6edf3" font-family="monospace" font-size="18">Number of pages: 8</text>
+<text x="32" y="137" fill="#e6edf3" font-family="monospace" font-size="18">Enter page reference string: 1 2 3 1 4 5 2 1</text>
+<text x="32" y="162" fill="#e6edf3" font-family="monospace" font-size="18">Number of frames: 3</text>
+<text x="32" y="187" fill="#e6edf3" font-family="monospace" font-size="18"> </text>
+<text x="32" y="212" fill="#e6edf3" font-family="monospace" font-size="18">Page  Frames       Status</text>
+<text x="32" y="237" fill="#ffcc66" font-family="monospace" font-size="18">1     1 - -        Fault</text>
+<text x="32" y="262" fill="#ffcc66" font-family="monospace" font-size="18">2     1 2 -        Fault</text>
+<text x="32" y="287" fill="#ffcc66" font-family="monospace" font-size="18">3     1 2 3        Fault</text>
+<text x="32" y="312" fill="#e6edf3" font-family="monospace" font-size="18">1     1 2 3        Hit</text>
+<text x="32" y="337" fill="#ffcc66" font-family="monospace" font-size="18">4     1 2 4        Fault</text>
+<text x="32" y="362" fill="#ffcc66" font-family="monospace" font-size="18">5     1 2 5        Fault</text>
+<text x="32" y="387" fill="#e6edf3" font-family="monospace" font-size="18">2     1 2 5        Hit</text>
+<text x="32" y="412" fill="#e6edf3" font-family="monospace" font-size="18">1     1 2 5        Hit</text>
+<text x="32" y="437" fill="#e6edf3" font-family="monospace" font-size="18">Total page faults = 5</text>
+</svg>
