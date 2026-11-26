@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="343" viewBox="0 0 1200 343">
+<rect width="1200" height="343" rx="16" fill="#0d1117"/>
+<path d="M16 0h1168a16 16 0 0 1 16 16v48H0V16A16 16 0 0 1 16 0" fill="#21262d"/>
+<circle cx="28" cy="31" r="7" fill="#ff5f57"/><circle cx="52" cy="31" r="7" fill="#febc2e"/><circle cx="76" cy="31" r="7" fill="#28c840"/>
+<text x="105" y="38" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="20" font-weight="bold">Experiment 39 — C-SCAN Disk Scheduling</text>
+<text x="28" y="85" fill="#f0a65a" font-family="Arial,sans-serif" font-size="14">Illustrative sample output (not a captured terminal screenshot)</text>
+<text x="28" y="120" fill="#7ee787" font-family="monospace" font-size="18">$ ./cscan</text>
+<text x="28" y="147" fill="#e6edf3" font-family="monospace" font-size="18">Enter number of requests: 8</text>
+<text x="28" y="174" fill="#e6edf3" font-family="monospace" font-size="18">Enter request queue: 98 183 37 122 14 124 65 67</text>
+<text x="28" y="201" fill="#e6edf3" font-family="monospace" font-size="18">Enter initial head position: 53</text>
+<text x="28" y="228" fill="#e6edf3" font-family="monospace" font-size="18">Enter maximum cylinder number: 199</text>
+<text x="28" y="255" fill="#e6edf3" font-family="monospace" font-size="18">Direction (1=up, 0=down): 1</text>
+<text x="28" y="282" fill="#e6edf3" font-family="monospace" font-size="18"> </text>
+<text x="28" y="309" fill="#e6edf3" font-family="monospace" font-size="18">C-SCAN sequence: 53 -&gt; 65 -&gt; 67 -&gt; 98 -&gt; 122 -&gt; 124 -&gt; 183 -&gt; 199 -&gt; 0 -&gt; 14 -&gt; 37</text>
+<text x="28" y="336" fill="#e6edf3" font-family="monospace" font-size="18">Total head movement = 382 cylinders</text>
+</svg>
