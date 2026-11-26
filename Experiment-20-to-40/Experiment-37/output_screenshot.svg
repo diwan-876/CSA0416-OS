@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="282" viewBox="0 0 1200 282">
-<rect width="1200" height="282" rx="16" fill="#0d1117"/>
-<path d="M16 0h1168a16 16 0 0 1 16 16v46H0V16A16 16 0 0 1 16 0" fill="#21262d"/>
-<circle cx="28" cy="30" r="7" fill="#ff5f57"/><circle cx="52" cy="30" r="7" fill="#febc2e"/><circle cx="76" cy="30" r="7" fill="#28c840"/>
-<text x="104" y="36" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="19" font-weight="bold">Experiment 37 — FCFS Disk Scheduling</text>
-<text x="28" y="94" fill="#7ee787" font-family="Consolas,monospace" font-size="18">$ ./fcfs</text>
-<text x="28" y="120" fill="#e6edf3" font-family="Consolas,monospace" font-size="18">Enter number of disk requests: 8</text>
-<text x="28" y="146" fill="#e6edf3" font-family="Consolas,monospace" font-size="18">Enter request queue: 98 183 37 122 14 124 65 67</text>
-<text x="28" y="172" fill="#e6edf3" font-family="Consolas,monospace" font-size="18">Enter initial head position: 53</text>
-<text x="28" y="198" fill="#e6edf3" font-family="Consolas,monospace" font-size="18"> </text>
-<text x="28" y="224" fill="#e6edf3" font-family="Consolas,monospace" font-size="18">FCFS sequence: 53 -&gt; 98 -&gt; 183 -&gt; 37 -&gt; 122 -&gt; 14 -&gt; 124 -&gt; 65 -&gt; 67</text>
-<text x="28" y="250" fill="#e6edf3" font-family="Consolas,monospace" font-size="18">Total head movement = 640 cylinders</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="289" viewBox="0 0 1200 289"><rect width="1200" height="289" rx="16" fill="#0d1117"/><rect width="1200" height="64" rx="16" fill="#21262d"/><circle cx="28" cy="31" r="7" fill="#ff5f57"/><circle cx="52" cy="31" r="7" fill="#febc2e"/><circle cx="76" cy="31" r="7" fill="#28c840"/><text x="105" y="38" fill="#f0f6fc" font-family="Arial" font-size="20" font-weight="bold">Experiment 37 — FCFS Disk Scheduling</text><text x="28" y="85" fill="#f0a65a" font-family="Arial" font-size="14">Illustrative sample output (not a captured terminal screenshot)</text><text x="28" y="120" fill="#7ee787" font-family="monospace" font-size="18">$ ./fcfs</text><text x="28" y="147" fill="#e6edf3" font-family="monospace" font-size="18">Enter number of disk requests: 8</text><text x="28" y="174" fill="#e6edf3" font-family="monospace" font-size="18">Enter request queue: 98 183 37 122 14 124 65 67</text><text x="28" y="201" fill="#e6edf3" font-family="monospace" font-size="18">Enter initial head position: 53</text><text x="28" y="228" fill="#e6edf3" font-family="monospace" font-size="18"> </text><text x="28" y="255" fill="#e6edf3" font-family="monospace" font-size="18">FCFS sequence: 53 -&gt; 98 -&gt; 183 -&gt; 37 -&gt; 122 -&gt; 14 -&gt; 124 -&gt; 65 -&gt; 67</text><text x="28" y="282" fill="#e6edf3" font-family="monospace" font-size="18">Total head movement = 640 cylinders</text></svg>
