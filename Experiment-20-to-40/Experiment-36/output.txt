@@ -1,0 +1,13 @@
+$ ./linked_allocation
+Enter number of file blocks: 4
+Enter block numbers in linked order: 9 16 1 24
+
+Linked File Allocation
+Start block: 9
+End block: 24
+Block    Next pointer
+9        16
+16       1
+1        24
+24       -1
+Chain: 9 -> 16 -> 1 -> 24 -> NULL
