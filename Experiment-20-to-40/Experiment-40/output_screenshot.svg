@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="424" viewBox="0 0 1200 424">
+<rect width="1200" height="424" rx="16" fill="#0d1117"/>
+<path d="M16 0h1168a16 16 0 0 1 16 16v48H0V16A16 16 0 0 1 16 0" fill="#21262d"/>
+<circle cx="28" cy="31" r="7" fill="#ff5f57"/><circle cx="52" cy="31" r="7" fill="#febc2e"/><circle cx="76" cy="31" r="7" fill="#28c840"/>
+<text x="105" y="38" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="20" font-weight="bold">Experiment 40 — Linux File Permissions and Users</text>
+<text x="28" y="85" fill="#f0a65a" font-family="Arial,sans-serif" font-size="14">Illustrative sample output (not a captured terminal screenshot)</text>
+<text x="28" y="120" fill="#7ee787" font-family="monospace" font-size="18">$ touch permission_demo.txt</text>
+<text x="28" y="147" fill="#7ee787" font-family="monospace" font-size="18">$ chmod 640 permission_demo.txt</text>
+<text x="28" y="174" fill="#7ee787" font-family="monospace" font-size="18">$ ./permissions permission_demo.txt</text>
+<text x="28" y="201" fill="#e6edf3" font-family="monospace" font-size="18">File: permission_demo.txt</text>
+<text x="28" y="228" fill="#e6edf3" font-family="monospace" font-size="18">Owner: current-user</text>
+<text x="28" y="255" fill="#e6edf3" font-family="monospace" font-size="18">Group: current-group</text>
+<text x="28" y="282" fill="#e6edf3" font-family="monospace" font-size="18">Permissions: rw- r-- ---</text>
+<text x="28" y="309" fill="#e6edf3" font-family="monospace" font-size="18">Octal mode: 0640</text>
+<text x="28" y="336" fill="#e6edf3" font-family="monospace" font-size="18"> </text>
+<text x="28" y="363" fill="#e6edf3" font-family="monospace" font-size="18">User types: owner (u), group (g), others (o)</text>
+<text x="28" y="390" fill="#e6edf3" font-family="monospace" font-size="18">Access rights: read (r=4), write (w=2), execute (x=1)</text>
+<text x="28" y="417" fill="#e6edf3" font-family="monospace" font-size="18">Example command: chmod 640 permission_demo.txt</text>
+</svg>
